@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    color: #CCC1FF;
+}
+
+#header {
+    background: #6943FF;
+    color: #fff;
+    margin: 0;
+    width: 600px;
+}
+
+.container {
+    
+    width: 600px;
+}
+
+#convert {
+    background-color: #1F2937;
+    margin: 0;
+}
+
+.output {
+    background-color: #273549;
+    color: #fff;
+}
