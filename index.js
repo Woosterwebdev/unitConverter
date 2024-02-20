@@ -36,7 +36,7 @@ function convert() {
         volumeEl.innerHTML = `${valueEl.value} liters = ${gallon} gallons | ${valueEl.value} gallons = ${liter} liters`
         massEl.innerHTML = `${valueEl.value} kilos = ${pound} pounds | ${valueEl.value} pounds = ${kilo} kilos`
     } else { 
-        lengthEl.innerHTML = `${valueEl.value} meter = ${feet} | ${valueEl.value} foot = ${meter} meters`
+        lengthEl.innerHTML = `${valueEl.value} meter = ${feet} feet | ${valueEl.value} foot = ${meter} meters`
         volumeEl.innerHTML = `${valueEl.value} liter = ${gallon} gallons | ${valueEl.value} gallon = ${liter} liters`
         massEl.innerHTML = `${valueEl.value} kilo = ${pound} pounds | ${valueEl.value} pound = ${kilo} kilos`
     }
